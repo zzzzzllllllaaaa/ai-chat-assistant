@@ -1,10 +1,10 @@
 {
 	"id": "ai-chat-assistant",
 	"name": "AI Chat Assistant",
-	"version": "1.6.11",
+	"version": "1.9.11",
 	"minAppVersion": "1.5.0",
-	"description": "一款强大的 AI 助手，支持多模型、知识库检索（RAG）、智能体、长期记忆和角色扮演。",
+	"description": "一款强大的 AI 助手，支持多模型、知识库检索（RAG）、智能体、长期记忆和角色扮演.",
 	"author": "3zh",
-	"authorUrl": "zzzzzllllllaaaa/ai-chat-assistant",
+	"authorUrl": "",
 	"isDesktopOnly": false
 }
