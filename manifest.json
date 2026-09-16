@@ -1,0 +1,10 @@
+{
+  "id": "ai-chat-assistant",
+  "name": "AI Chat Assistant",
+  "version": "2.0.1",
+  "minAppVersion": "1.7.2",
+  "description": "Chat with multiple LLM providers, search your notes with local RAG, run note-editing agents, and roleplay with character cards.",
+  "author": "3zh",
+  "authorUrl": "https://github.com/zzzzzllllllaaaa",
+  "isDesktopOnly": false
+}

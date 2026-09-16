@@ -1,0 +1,30 @@
+{
+  "name": "obsidian-ai-chat-assistant",
+  "version": "2.0.1",
+  "description": "A powerful AI assistant plugin for Obsidian with multi-model support, knowledge base RAG, agents, long-term memory, and character roleplay.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "verify": "tsc -noEmit -skipLibCheck",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "keywords": [],
+  "author": "3zh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/diff": "^7.0.2",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.17.3",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "diff": "^5.2.2",
+    "jszip": "^3.10.1"
+  }
+}
